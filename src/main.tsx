@@ -5,14 +5,25 @@ import {
   RouterProvider,
 } from "react-router-dom"
 
-import Index from './routes/Index'
+import { Index } from './routes/Index'
+import { Whatsapp } from './routes/Whatsapp'
+import { Instagram } from './routes/Instagram'
 
 import "picnic/picnic.min.css"
+import "./index.css"
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Index />,
+  },
+  {
+    path: "/dm-ig",
+    element: <Instagram />,
+  },
+  {
+    path: "/dm-wa",
+    element: <Whatsapp />,
   },
 ]);
 
