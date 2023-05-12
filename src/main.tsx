@@ -10,7 +10,6 @@ import { Whatsapp } from './routes/Whatsapp'
 import { Instagram } from './routes/Instagram'
 
 import "picnic/picnic.min.css"
-import "./index.css"
 
 const router = createBrowserRouter([
   {
