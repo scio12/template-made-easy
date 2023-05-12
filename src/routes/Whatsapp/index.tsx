@@ -1,7 +1,7 @@
 import {
     useState, useMemo
 } from "react"
-import styles from "../Instagram/Instagram.module.css"
+import styles from "./Whatsapp.module.css"
 
 const templating = (waktu: string, jabatan: string, namaSekolah: string) => `Selamat ${waktu} ${jabatan} ${namaSekolah}.
 
